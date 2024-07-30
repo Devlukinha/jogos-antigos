@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font-padrão: 'Popins', sans-serif;
+    --cor00: #0079DB;
+    --cor01: #003364;
+    --cor02: #0057BA;
+    --cor03: #E8F2F9;
+}
+
+/* title*/
+#intro-pag{
+    background-color: var(--cor01);
+    color: var(--cor03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+}
+
+#intro-pag h1{
+    font-family: var(--font-padrão);
+    margin: 0px 0px 10px 0px;
+
+}
+
+#intro-pag p{
+    font-family: var(--font-padrão);
+    margin: 0px 0px 20px 0px;
+}
+
+h2{
+    font-family: var(--font-padrão);
+    margin: 0px 0px 20px 0px;
+}
+/*area de navegação*/
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+/*links*/
+a{
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    background-color: var(--cor02);
+    color: var(--cor03);
+    font-family: var(--font-padrão);
+    transition: 500ms linear;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+.sp:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+
+
+.pc:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.dk:hover{
+    background-color: orangered;
+    color: black;
+}
+
+.sm:hover{
+    background-color: orange;
+    color: black;
+}
