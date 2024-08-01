@@ -7,7 +7,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+body{
+    scroll-behavior: smooth;
+}
 
 @font-face {
     font-family:'Game' ;
@@ -25,7 +27,7 @@
 
 /* title*/
 #intro-pag{
-    background-color: var(--cor01);
+    background-image: linear-gradient(to top,#003364, #0057BA, #0079DB );
     color: var(--cor03);
     display: flex;
     justify-content: center;
@@ -65,25 +67,56 @@ ul{
     gap: 30px;
 }
 /*links*/
-nav ul a{
+ a{
     list-style: none;
     text-decoration: none;
     padding: 10px; 
     color: var(--cor03);
     font-family: var(--font-padrão);
+    font-weight: bold;
     transition: 0.3s linear;
+    border-radius: 10px;
 }
 
-nav ul a:hover{
+a:hover{
    transform: scale(1.1);
-   color: darkorange;
+   background-color: var(--cor00);
 }
+
 /*principal*/
 .conteudo-padrao{
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    text-align: center;
+    text-indent: 20px;
+    line-height: 2em;
 }
 
+.conteudo-padrao h2{
+    font-family: 'Game';
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#space{
+  color: greenyellow;
+  text-shadow: 3px 3px 3px black;
+}
+
+#pac{
+    color: yellow;
+    text-shadow: 3px 3px 3px black;
+}
+
+#dok{
+    color: orangered;
+    text-shadow: 3px 3px 3px black;
+}
+
+#mario{
+    color: orange;
+    text-shadow: 3px 3px 3px black;
+}
