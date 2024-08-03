@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercicio CSS</title>
-
+    <title>Exercicio CSS- Jogos Antigos</title>
+    <link rel="shortcut icon" href="imagens/icons8-gameboy-16.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
   </head>
   <!--Essa página foi criada utilizando como base de fonte o artigo do site: super.abril.com.br/tecnologia/os-30-games-mais-importantes-de-todos-os-tempos/ 
@@ -28,17 +28,18 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
       <nav class="navigation">
         <ul>
           <a  class="sp"
-          href="#space"><li>1978 - Space Invaders</li></a>
-          <a class="pc"  href="#pac"><li>1980 - Pac Man</li></a>
+          href="#space"><li>Space Invaders</li></a>
+          <a class="pc"  href="#pac"><li>Pac Man</li></a>
           <a class="dk"
-          href="#dok"><li>1981 - Donkey Kong</li></a>
-          <a class="sm"  href="#mario"><li>1985 - Super Mario Bros.</li></a>
+          href="#dok"><li>Donkey Kong</li></a>
+          <a class="sm"  href="#mario"><li>Super Mario Bros.</li></a>
         </ul>
       </nav>
       <!--fim da lista-->
     </div>
      <!--fim da div title-->
 
+     <main class="principal">
      <!--prinicipal-->
     <div class="conteudo-padrao">
       <h2 id="space">1978 – Space Invaders</h2>
@@ -53,7 +54,7 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         mundo (um sexto delas apenas nos EUA), que renderam mais de US$ 2
         bilhões em fichas (moedas, no caso) ao final de 1982.
       </p>
-      <img src="imagens/hqdefault.jpg" alt="">
+      <img class="sinvaders" src="imagens/hqdefault.jpg" alt="">
     </div>
     <div class="conteudo-padrao">
       <h2 id="pac">1980 – Pac-Man</h2>
@@ -69,7 +70,7 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         para estabelecer definitivamente os games no imaginário popular.
       </p>
 
-      <img src="./imagens/pacman.jpg" alt="imagem jogo pacman" />
+      <img class="pman" src="./imagens/pacman.jpg" alt="imagem jogo pacman" />
       
         
   
@@ -90,12 +91,11 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         jogo. A disputa entre os dois principais jogadores foi retratada no
         ótimo documentário King of Kong.
       </p>
-      <img src="./imagens/dk.jpg" alt="imagem jogo donkey kong">
+      <img class="dkong"  src="./imagens/dk.jpg" alt="imagem jogo donkey kong">
     </div>
 
     <div class="conteudo-padrao">
       <h2 id="mario">1985 – Super Mario Bros.</h2>
-      <img src="./imagens/mario.jpg" alt="imagem jogo super mario">
       <p>
         Criado por Shigeru Miyamoto, Super Mario Bros. revolucionou de cara,
         obrigando o jogador a seguir sempre adiante, explorando oito mundos com
@@ -105,9 +105,12 @@ Autor: Pablo Miyazawa Atualizado em 27 mar 2020
         controlado de modo tão refinado e preciso. Simples de aprender e difícil
         de dominar (e largar), foi inspiração para todos os games de ação.
       </p>
+      <img class="superm" src="./imagens/mario.jpg" alt="imagem jogo super mario">
+      <a class="topo" href="#intro-pag">Voltar ao topo</a>
     </div>
+  </main>
     <!--principal-->
 
-    <footer>Aula para formatação de CSS. Nome do aluno.</footer>
+    <footer>Aula para formatação de CSS. Desenvolvido por<a class="aluno" href="aluno.html" target="_blank">Lucas Henrque Borges</a>.</footer>
   </body>
 </html>

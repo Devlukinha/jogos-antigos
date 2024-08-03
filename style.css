@@ -7,8 +7,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body{
+html{
     scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--cor04);
 }
 
 @font-face {
@@ -23,6 +27,7 @@ body{
     --cor01: #003364;
     --cor02: #0057BA;
     --cor03: #E8F2F9;
+    --cor04: #c3cbd1;
 }
 
 /* title*/
@@ -65,9 +70,11 @@ nav{
 ul{
     display: flex;
     gap: 30px;
+    
 }
 /*links*/
  a{
+    text-align: center;
     list-style: none;
     text-decoration: none;
     padding: 10px; 
@@ -83,7 +90,14 @@ a:hover{
    background-color: var(--cor00);
 }
 
-/*principal*/
+/*conteudo-total*/
+.principal{
+    margin: 0px 80px 0px 80px;
+    box-shadow: 3px 3px 10px black;
+    border-bottom-left-radius: 40px;
+}
+
+/*conteudo-principal*/
 .conteudo-padrao{
     display: flex;
     justify-content: center;
@@ -92,6 +106,9 @@ a:hover{
     text-align: center;
     text-indent: 20px;
     line-height: 2em;
+    background-color: #E8F2F9;
+    font-family: var(--font-padrão);
+    padding: 40px;
 }
 
 .conteudo-padrao h2{
@@ -120,3 +137,66 @@ a:hover{
     color: orange;
     text-shadow: 3px 3px 3px black;
 }
+
+/*imagens*/
+.sinvaders{
+    width: 500px;
+    height: 300px;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+    border-radius: 10px;
+}
+
+.pman{
+    width: 500px;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+    border-radius: 10px;
+}
+
+.dkong{
+    width: 500px;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+    border-radius: 10px;
+}
+
+.superm{
+    width: 500px;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+    border-radius: 10px;
+}
+/*textos*/
+p{
+    margin-bottom: 30px;
+}
+
+.conteudo-padrao > a.topo{
+    background-color: var(--cor00);
+    transition: 300ms linear;
+    border-radius: 20px;
+    width: 170px;
+    padding-right: 30px;
+    margin-top: 40px;
+    
+}
+
+.conteudo-padrao > a:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 13px black;
+}
+
+footer{
+    background-color: var(--cor01);
+    color: var(--cor03);
+    padding: 30px;
+    text-align: center;
+    font-family: var(--font-padrão);
+}
+
+footer > a.aluno{
+    background-color: var(--cor01);
+}
+
+footer > a.aluno:hover{
+    color: var(--cor00);
+    text-decoration: underline;
+}
+
