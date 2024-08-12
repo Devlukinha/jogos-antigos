@@ -1,0 +1,42 @@
+@media (max-width: 720px){
+    .principal{
+        margin: 0;
+    }
+
+    .sinvaders{
+        width: 370px;
+        height: auto;
+        box-shadow: 3px 3px 10px rgb(66, 66, 66);
+        border-radius: 10px;
+    }
+    
+    .pman{
+        width: 370px;
+        height: auto;
+        box-shadow: 3px 3px 10px rgb(66, 66, 66);
+        border-radius: 10px;
+    }
+    
+    .dkong{
+        width: 370px;
+        height: auto;
+        box-shadow: 3px 3px 10px rgb(66, 66, 66);
+        border-radius: 10px;
+    }
+    
+    .superm{
+        width: 370px;
+        height: auto;
+        box-shadow: 3px 3px 10px rgb(66, 66, 66);
+        border-radius: 10px;
+    }
+
+    footer{
+        background-color: var(--cor01);
+        color: var(--cor03);
+        padding: 10px;
+        text-align: center;
+        font-family: var(--font-padrão);
+        font-size: 12px;
+    }
+}

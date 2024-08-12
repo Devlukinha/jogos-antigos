@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--cor04);
+}
+
+@font-face {
+    font-family:'Game' ;
+    src: url('../fontes/Gamer.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --font-padrão: "Popins", sans-serif;
+    --cor00: #0079DB;
+    --cor01: #003364;
+    --cor02: #0057BA;
+    --cor03: #E8F2F9;
+    --cor04: #c3cbd1;
+}
+
+/* title*/
+#intro-pag{
+    background-image: linear-gradient(to top,#003364, #0057BA, #0079DB );
+    color: var(--cor03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+}
+
+#intro-pag > h1{
+    font-family: 'Game';
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0px 0px 10px 0px;
+
+}
+
+#intro-pag p{
+    font-family: var(--font-padrão);
+    margin: 0px 0px 20px 0px;
+}
+
+h2{
+    font-family: var(--font-padrão);
+    margin: 0px 0px 20px 0px;
+}
+/*area de navegação*/
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    
+}
+/*links*/
+ a{
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px; 
+    color: var(--cor03);
+    font-family: var(--font-padrão);
+    font-weight: bold;
+    transition: 500ms linear;
+    border-radius: 10px;
+}
+
+a:hover{
+   transform: scale(1.1);
+   background-color: var(--cor00);
+}
+
+/*conteudo-total*/
+.principal{
+    margin: 0px 80px 0px 80px;
+    box-shadow: 3px 3px 10px black;
+    border-bottom-left-radius: 40px;
+}
+
+/*conteudo-principal*/
+.conteudo-padrao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-indent: 20px;
+    line-height: 2em;
+    background-color: #E8F2F9;
+    font-family: var(--font-padrão);
+    padding: 40px;
+}
+
+.conteudo-padrao h2{
+    font-family: 'Game';
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#space{
+  color: greenyellow;
+  text-shadow: 3px 3px 3px black;
+}
+
+#pac{
+    color: yellow;
+    text-shadow: 3px 3px 3px black;
+}
+
+#dok{
+    color: orangered;
+    text-shadow: 3px 3px 3px black;
+}
+
+#mario{
+    color: orange;
+    text-shadow: 3px 3px 3px black;
+}
+
+/*imagens*/
+.sinvaders{
+    width: 500px;
+    height: 300px;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+    border-radius: 10px;
+}
+
+.pman{
+    width: 500px;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+    border-radius: 10px;
+}
+
+.dkong{
+    width: 500px;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+    border-radius: 10px;
+}
+
+.superm{
+    width: 500px;
+    box-shadow: 3px 3px 10px rgb(66, 66, 66);
+    border-radius: 10px;
+}
+/*textos*/
+p{
+    margin-bottom: 30px;
+}
+
+.conteudo-padrao > a.topo{
+    background-color: var(--cor00);
+    transition: 300ms linear;
+    border-radius: 20px;
+    width: 170px;
+    padding-right: 30px;
+    margin-top: 40px;
+    
+}
+
+.conteudo-padrao > a:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 13px black;
+}
+
+footer{
+    background-color: var(--cor01);
+    color: var(--cor03);
+    padding: 30px;
+    text-align: center;
+    font-family: var(--font-padrão);
+}
+
+footer > a.aluno{
+    background-color: var(--cor01);
+    padding: 0;
+    margin-left: 5px;
+}
+
+footer > a.aluno:hover{
+    color: var(--cor00);
+    text-decoration: underline;
+}
+
